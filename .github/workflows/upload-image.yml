@@ -19,7 +19,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          aws-region: ap-northeast-2
+          aws-region: ap-northeast-3
           role-to-assume: arn:aws:iam::831830224896:role/ECRFullAccess
 
       - name: Login to Amazon ECR
